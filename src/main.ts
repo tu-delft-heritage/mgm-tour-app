@@ -6,7 +6,6 @@ import "universalviewer/dist/esm/index.css";
 const viewer = document.querySelector<HTMLDivElement>("#viewer");
 const message = document.querySelector<HTMLElement>("#message");
 const messageText = document.querySelector<HTMLParagraphElement>("#message-text");
-// const uv = document.querySelector<HTMLDivElement>("#uv");
 
 const configMap = {
     "gen_man": "general_manifest.json",
@@ -30,7 +29,7 @@ function isConfigKey(value: string): value is keyof typeof configMap {
 function isAllowedManifestUrl(value: string): boolean {
   try {
     const url = new URL(value, window.location.origin);
-    const isDeployPreview = /^deploy-preview-\d+--heritage-tudelft\.netlify\.app$/.test(url.hostname);
+    const isDeployPreview = /^deploy-preview-\d+--(heritage-tudelft|delft-iiif)\.netlify\.app$/.test(url.hostname);
     const isAllowedHost = url.hostname === "localhost"
       || url.hostname === "heritage.tudelft.nl"
       || isDeployPreview;
