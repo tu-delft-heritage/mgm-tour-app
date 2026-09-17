@@ -3,7 +3,7 @@
     "embedded": true,
     "theme": "uv-theme-dark",
 
-    "headerPanelEnabled": true,
+    "headerPanelEnabled": false,
     "footerPanelEnabled": true,
     "leftPanelEnabled": true,
     "rightPanelEnabled": true,
