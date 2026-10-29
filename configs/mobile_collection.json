@@ -3,13 +3,13 @@
     "embedded": true,
     "theme": "uv-theme-dark",
 
-    "headerPanelEnabled": true,
+    "headerPanelEnabled": false,
     "footerPanelEnabled": true,
     "leftPanelEnabled": true,
     "rightPanelEnabled": true,
 
     "navigatorEnabled": false,
-    "pagingEnabled": true,
+    "pagingEnabled": false,
     "searchWithinEnabled": false,
     "clickToZoomEnabled": true,
     "saveUserSettings": false,
@@ -30,11 +30,18 @@
       }
     },
 
+    "pagingHeaderPanel": {
+      "options": {
+        "pageModeEnabled": false,
+        "galleryButtonEnabled": false
+      }
+    },
+
     "contentLeftPanel": {
       "options": {
         "panelOpen": false,
 
-        "thumbsEnabled": false,
+        "thumbsEnabled": true,
         "treeEnabled": true,
         "pageModeEnabled": false,
 
@@ -58,6 +65,12 @@
         "moreInfoEnabled": true,
         "openEnabled": false,
         "printEnabled": false,
+        "shareEnabled": false
+      }
+    },
+    "searchFooterPanel": {
+      "options": {
+        "downloadEnabled": false,
         "shareEnabled": false
       }
     },

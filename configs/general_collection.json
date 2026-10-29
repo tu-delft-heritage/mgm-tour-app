@@ -9,13 +9,13 @@
     "rightPanelEnabled": true,
 
     "navigatorEnabled": false,
+    "pagingEnabled": false,
     "searchWithinEnabled": false,
-
+    "clickToZoomEnabled": false,
     "saveUserSettings": false,
     "useArrowKeysToNavigate": true,
 
     "overrideFullScreen": false,
-
     "defaultToTreeIfCollection": true
   },
 
@@ -59,6 +59,19 @@
     "searchFooterPanel": {
       "options": {
         "downloadEnabled": false,
+        "shareEnabled": false
+      }
+    },
+    "mobileFooterPanel": {
+      "options": {
+        "bookmarkEnabled": false,
+        "downloadEnabled": false,
+        "embedEnabled": false,
+        "feedbackEnabled": false,
+        "fullscreenEnabled": false,
+        "moreInfoEnabled": true,
+        "openEnabled": false,
+        "printEnabled": false,
         "shareEnabled": false
       }
     },
