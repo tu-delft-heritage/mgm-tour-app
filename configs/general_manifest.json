@@ -11,7 +11,7 @@
     "navigatorEnabled": false,
     "searchWithinEnabled": false,
 
-    "saveUserSettings": false,
+    "saveUserSettings": true,
     "useArrowKeysToNavigate": true,
 
     "overrideFullScreen": false

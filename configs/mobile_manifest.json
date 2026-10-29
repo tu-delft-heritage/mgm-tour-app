@@ -16,7 +16,7 @@
     "searchWithinEnabled": false,
     "zoomToSearchResultEnabled": false,
 
-    "saveUserSettings": false,
+    "saveUserSettings": true,
     "useArrowKeysToNavigate": false,
 
     "overrideFullScreen": false

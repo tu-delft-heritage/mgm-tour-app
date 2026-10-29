@@ -12,7 +12,7 @@
     "pagingEnabled": false,
     "searchWithinEnabled": false,
     "clickToZoomEnabled": true,
-    "saveUserSettings": false,
+    "saveUserSettings": true,
     "useArrowKeysToNavigate": false,
 
     "overrideFullScreen": false,
